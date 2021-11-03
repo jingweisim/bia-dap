@@ -50,4 +50,5 @@ print("Naive bayes TF-IDF accuracy score:",mnb_tfidf_score)
 
 from sklearn.metrics import classification_report
 mnb_tfidf_report = classification_report(y_test,mnb_tfidf_predict,target_names=['0','1'])
+print('TF-IDF accuracy score:')
 print(mnb_tfidf_report)
